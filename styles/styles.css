@@ -22,9 +22,10 @@ h1{
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
+    border: 1px double steelblue;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p{
@@ -36,18 +37,22 @@ main{
 }
 
 aside{
-    width: 20rem;
+    width: 25rem;
     margin: 0.5rem;
     border: 2.5px solid orangered;
     padding: 10px;
     background-color: rgb(184, 241, 241);
     color: rgb(43, 6, 6);
     text-align: justify;
+    position: relative;
+    top: 5px;
+
 }
 
 aside img{
-    width: 200px;
+    width: 20em;
     height: auto;
+    /* text-align: justify; */
 
 }
 
@@ -58,3 +63,9 @@ footer{
 }
 
 /* Clas Selectors */
+.box{
+    margin: 1rem;
+    border: 2px double #767272;
+    padding: 1rem;
+    background-color: #eae1e1;
+}
