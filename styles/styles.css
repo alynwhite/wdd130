@@ -53,7 +53,12 @@ aside img{
     width: 20em;
     height: auto;
     /* text-align: justify; */
+}
 
+aside h2{
+    position: absolute;
+    top: 20px;
+    left: 150px;
 }
 
 footer{
@@ -62,7 +67,7 @@ footer{
     text-align: center;
 }
 
-/* Clas Selectors */
+/*Class Selectors*/
 .box{
     margin: 1rem;
     border: 2px double #767272;
