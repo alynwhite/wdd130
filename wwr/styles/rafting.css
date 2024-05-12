@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --primary-color: #DAD7CD;
+    --secondary-color: #A3B18A;
+    --accent1-color: #588157;
+    --accent2-color: #3A5A40;
+
+    --heading-font: 'Josefin', serif;
+    --paragraph-font: 'Josefin', serif;
+
+    --nav-background-color: #A3B18A;
+    --nav-link-color: #3A5A40;
+    --nav-hover-link-color: #3A5A40;
+    --nav-hover-background-color: #DAD7CD;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--accent2-color)
+}
+
+header{
+    padding: 1em;
+    background-color: var(--secondary-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    position: relative;
+    background-color: var(--secondary-color);
+}
+div h1, article{
+    position: absolute;
+}
+article{
+    background-color: var(--primary-color);
+}
+article img{
+    float: right;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
