@@ -70,7 +70,7 @@ aside h2{
     left: 150px;
 }
 
-header, .grid, footer{
+header, footer, .grid{
     margin-top: 15px;
     border-top: 2.5px dashed orangered;
     text-align: center;
@@ -87,7 +87,7 @@ header, .grid, footer{
     background-color: #eae1e1;
 }
 
-.grid{
+.grid {
     display: grid;
     align-items: center;
     /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
