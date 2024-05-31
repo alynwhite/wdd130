@@ -123,3 +123,24 @@ figure img{
 figcaption{
     text-align: center;
 }
+
+footer{
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+footer a img{
+    width: 50px;
+    height: auto;
+    padding: 10px 0;
+}
+footer p{
+    grid-column-start: 3;
+    grid-column-end: span 2;
+
+}
+footer div{
+    grid-column-start: 5;
+    align-items: stretch;
+}
