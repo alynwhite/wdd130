@@ -9,6 +9,8 @@
     --heading-font: 'Josefin', serif;
     --paragraph-font: 'Josefin', serif;
 
+    --overall-background-color: rgba(218, 215, 205, 0.644);
+
     --nav-background-color: #A3B18A;
     --nav-link-color: #3A5A40;
     --nav-hover-link-color: #3A5A40;
@@ -24,30 +26,42 @@ h1, h2, h3, h4, h5, h6{
     color: var(--accent2-color)
 }
 
-header{
-    padding: 1em;
-    background-color: var(--secondary-color);
+p{
+    padding: 15px 1px;
 }
 
-a{
-    text-decoration: none;
-}
-
-div{
+.hero{
     position: relative;
-    background-color: var(--secondary-color);
+    top: 10px; left: 2px; right: 2px;
 }
-div h1, article{
+.hero h1{
+    background-color: var(--overall-background-color);
     position: absolute;
+    text-align: center;
+    padding: 20px;
+    top: 0;
+    right: 0;
+    left: 0;
+    
 }
-article{
-    background-color: var(--primary-color);
+.hero article{
+    background-color: var(--overall-background-color);
+    position: absolute;
+    bottom: 35%;
+    left: 20px;
+    right: 20px;
+
 }
-article img{
+.hero article img{
+    width: 100px;
+    height: auto;
     float: right;
+    padding: 10px
 }
+
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+    padding: 0;
 }
