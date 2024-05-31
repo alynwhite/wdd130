@@ -21,9 +21,37 @@ body{
     max-width: 960px;
     padding: 20px;
 }
+
+/* Reoccuring theme */
+header{
+    display: grid;
+    grid-template-columns: 200px 2fr;
+    align-items: center;
+    max-width: 1000px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--nav-background-color);
+    padding: 0 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 10px 15px;
+}
+
+nav :hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    text-align: center;
 }
 
 p{
@@ -37,7 +65,7 @@ p{
 .hero h1{
     background-color: var(--overall-background-color);
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px;
     top: 0;
     right: 0;
@@ -64,4 +92,19 @@ p{
     width: 100%;
     height: auto;
     padding: 0;
+}
+
+.history h2{
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.history{
+    background-color: var(--overall-background-color);
+    text-align: left;
+}
+
+.adventure-awaits{
+    background-color: var(--overall-background-color);
+    /* text-align: center; */
 }
