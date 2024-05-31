@@ -106,5 +106,20 @@ p{
 
 .adventure-awaits{
     background-color: var(--overall-background-color);
-    /* text-align: center; */
+}
+
+.adventure-awaits h2{
+    padding: 10px 0 0 0;
+
+}
+.adventure-awaits div{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+figure img{
+    width: 100%;
+    height: auto;
+}
+figcaption{
+    text-align: center;
 }
