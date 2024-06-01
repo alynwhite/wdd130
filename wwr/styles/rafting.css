@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Farsan&family=Racing+Sans+One&display=swap');
 
 :root{
     --primary-color: #DAD7CD;
@@ -6,8 +8,8 @@
     --accent1-color: #588157;
     --accent2-color: #3A5A40;
 
-    --heading-font: 'Josefin', serif;
-    --paragraph-font: 'Josefin', serif;
+    --heading-font: "Arsenal", sans-serif;
+    --paragraph-font: "Arsenal", sans-serif;
 
     --overall-background-color: rgba(218, 215, 205, 0.644);
 
@@ -35,6 +37,7 @@ nav{
     justify-content: space-around;
     background-color: var(--nav-background-color);
     padding: 0 1px;
+    font-weight: bold;
 }
 
 nav a {

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Farsan&family=Racing+Sans+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    font-family: "Farsan", sans-serif;
+    font-size: 1.1em;
+    color: rgb(58, 92, 92);
+    max-width: 1000px;
+}
+h1{
+    font-family: 'Racing Sans One', sans-serif;
+    font-weight: 10;
+}
+header{
+    text-align: center;
+}
+
+form{
+    width: 700px;
+    margin: 5px auto;
+    padding: 1rem;
+    border: 1px solid rgb(58, 92, 92);
+    background-color: rgba(189, 206, 206, 0.308); 
+    border-radius: 0.2rem;
+    display: grid;
+}
+form fieldset{
+    display: grid;
+    grid-gap: 0.2rem;
+    margin: 5px 0;
+    padding: 10px;
+}
+legend{
+   margin: 2px; 
+   padding: 10px;
+   color: rgb(40, 71, 71);
+}
+
+label, input, button, select, textarea{
+    font-family: 'Arsenal', sans-serif;
+}
+textarea{
+    width: 25rem;
+}
+label{
+    text-align: right;
+    padding-right: 2rem;
+}
+input, select, textarea{
+    padding: 0.2rem;
+    font-size: 1.0rem;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+button{
+    width: 100px;
+    border: 1px solid rgb(91, 128, 128);
+    background-color: rgb(67, 104, 104);
+    color: aliceblue;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    padding: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(151, 216, 216);
+    color: rgb(40, 54, 54);
+    font-size: 1rem;
+}
+footer{
+    margin-top: 20px;
+    border-top: 1px solid rgb(91, 128, 128);
+    text-align: center;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
+.column2 label {
+    text-align: left;
+}

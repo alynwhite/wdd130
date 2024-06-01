@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label>Full name 
+                        <input type="text" id="fullname" name="fullname">
+                    </label>
+                </div>
+                <div class="form-item column2">
+                    <label>Email  
+                        <input type="email" id="useremail" name="useremail">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label> What is your favorite browser?
+                        <select  id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="safari">Safari</option>
+                            <option value="miscrosoftedge">Microsoft Edge</option>
+                        </select>
+                    </label>
+                </div>
+                
+                <div class="form-item column1">
+                    <label>Do you have a household pet?
+                        <input type="checkbox" id="pet" name="pet">
+                    </label>
+                </div>
+                
+                <div class="form-item column1">
+                    <label>List the places you have lived:
+                        <br>
+                        <textarea id="feeback" name="feedback" rows="4" placeholder="St. Geoerge Utah, Greenwood Indiana, Byron Illinois, St. Louis Missouri"></textarea>
+                    </label>
+                </div>
+                
+            </fieldset>
+            <button id="submit" name="submit">Submit Poll</button>
+        </form>
+    </main>
+    
+    <footer>©️2024 | HTML Form - User Poll Activity | Alexia White</footer>
+</body>
+</html>
