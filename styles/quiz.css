@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Edu+TAS+Beginner:wght@400..700&family=Racing+Sans+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+}
+h1{
+    font-family: "Edu TAS Beginner", "Arsenal", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+form{
+    height: auto;
+    background-color: rgb(224, 215, 224);
+    border: 2px solid rgb(139, 129, 139);
+    border-radius: 0.3rem;
+}
