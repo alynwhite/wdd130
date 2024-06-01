@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 700px;
+    max-width: 1000px;
 }
 h1{
     font-family: "Edu TAS Beginner", "Arsenal", sans-serif;
@@ -15,4 +15,39 @@ form{
     background-color: rgb(224, 215, 224);
     border: 2px solid rgb(139, 129, 139);
     border-radius: 0.3rem;
+}
+
+.question-input{
+    /* display: block; */
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem;
+    align-items: center;
+}
+
+legend{
+    margin: 2px;
+    padding: 10px;
+    font-family: "Edu TAS Beginner", "Arsenal", sans-serif;
+    font-weight: bold;
+}
+label, input, button, select, textarea{
+    font-family: "Arsenal", sans-serif;
+}
+input, select, textarea{
+    padding: 5px 10px;
+}
+fieldset{
+    margin: 10px 20px;
+}
+button{
+    width: 100px;
+    background-color: rgb(173, 104, 173);
+    color: rgb(248, 244, 248);
+    border: 1px double rgb(173, 104, 173);
+    margin: 5px 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(141, 21, 141);
 }
