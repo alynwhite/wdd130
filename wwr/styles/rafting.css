@@ -18,6 +18,10 @@
     --nav-hover-link-color: #3A5A40;
     --nav-hover-background-color: #DAD7CD;
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -126,6 +130,9 @@ figure img{
 figcaption{
     text-align: center;
 }
+.meet-guides{
+    background-color: var(--overall-background-color);
+}
 .meet-guides div{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -149,4 +156,88 @@ footer p{
 footer div{
     grid-column-start: 5;
     align-items: stretch;
+}
+.contact-us{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 0 20px 20px 20px;
+    margin:0;
+}
+.contact-us address{
+    padding: 5px;
+}
+.contact-us address a{
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-weight: bold;
+}
+.contact-us iframe{
+    width: 500px;
+    height: 300px;
+    padding: 2px;
+    border: 3px solid var(--accent2-color);
+}
+form{
+    height: auto;
+    background-color: var(--primary-color);
+    border: 2px solid var(--accent1-color);
+    border-radius: 0.2rem;
+}
+.contact-info{
+    display: grid; 
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    align-items: center;
+}
+.contact-info label, input{
+    margin: 2px 20px;
+}
+.message-box{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.message-box div{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 0 20px 10px 20px;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: auto;
+    vertical-align: bottom;
+
+}
+legend{
+    margin: 2px;
+    padding: 10px;
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+label, input, button, select, textarea{
+    font-family: var(--paragraph-font);
+}
+input, select, textarea{
+    padding: 5px 10px;
+}
+fieldset{
+    margin: 10px 20px;
+}
+button{
+    width: 100px;
+    background-color: var(--secondary-color);
+    color:var(--accent2-color);
+    border: 1px double var(--accent1-color);
+    margin: 5px 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
