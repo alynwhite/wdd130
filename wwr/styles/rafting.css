@@ -126,7 +126,10 @@ figure img{
 figcaption{
     text-align: center;
 }
-
+.meet-guides div{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
 footer{
     background-color: var(--nav-background-color);
     display: grid;
