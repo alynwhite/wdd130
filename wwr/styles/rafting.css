@@ -18,10 +18,7 @@
     --nav-hover-link-color: #3A5A40;
     --nav-hover-background-color: #DAD7CD;
 }
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -156,6 +153,10 @@ footer p{
 footer div{
     grid-column-start: 5;
     align-items: stretch;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
 }
 .contact-us{
     display: grid;
