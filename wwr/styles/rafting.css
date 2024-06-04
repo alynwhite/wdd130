@@ -248,3 +248,30 @@ button:hover{
     background-color: var(--accent2-color);
     color: var(--primary-color);
 }
+.index-who-we-are{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* text-align: center; */
+}
+.index-who-we-are div{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--accent2-color);
+    border-radius: 0.2rem;
+}
+.index-who-we-are div img{
+    width: auto;
+    height: 200px;
+    border: 1px solid var(--accent2-color);
+    border-radius: 0.2rem;
+    margin-left: 15px;
+}
+h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+h2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
