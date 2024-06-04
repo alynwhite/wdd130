@@ -148,8 +148,8 @@ footer a img{
     padding: 15px 0 0 0;
 }
 footer p{
-    grid-column-start: 3;
-    grid-column-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 3;
 
 }
 footer div{
