@@ -23,6 +23,8 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 /* Reoccuring theme */
@@ -275,3 +277,80 @@ h2 a{
     color: inherit;
 }
 
+.location-trip{
+    padding: 5px;
+    background-color: var(--overall-background-color);
+}
+.location-trip div{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.location-trip figure{
+    border: 1px solid var(--accent2-color);
+}
+.trip-type figure{
+    padding: 10px;
+}
+.trip-type figure a{
+    text-decoration: none;
+    color: var(--nav-hover-background-color);
+    background-color: var(--accent2-color);
+    padding: 10px;
+    float: left;
+}
+
+
+.hero-trips{
+    position: relative;
+    top: 10px; left: 2px; right: 2px;
+}
+.hero-trips article{
+    background-color: var(--overall-background-color);
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 100px;
+}
+.hero-trips article p{
+    font-size: 20px;
+    float: left;
+}
+.hero-trips article a{
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 35px 15px 35px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-trips article a:hover{
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+    padding: 35px 15px 35px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table, caption{
+    background-color: var(--primary-color);
+    width: 800px;
+    border: 1px solid var(--accent2-color);
+    padding: 0;
+    margin: 30px;
+    text-align: left;
+}
+caption{
+    padding: 15px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: larger;
+}
+tbody, th, td{
+    border: 1px solid var(--accent2-color);
+}
