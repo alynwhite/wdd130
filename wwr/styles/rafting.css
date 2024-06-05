@@ -75,8 +75,11 @@ p{
     padding: 20px;
     top: 0;
     right: 0;
-    left: 0;
-    
+    left: 0;    
+}
+.hero h1:hover{
+    color: var(--nav-hover-background-color);
+    background-color: var(--accent2-color);   
 }
 .hero article{
     background-color: var(--overall-background-color);
@@ -99,9 +102,22 @@ p{
     height: auto;
     padding: 0;
 }
+.hero h3 a{
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+    text-decoration: none;
+    color: inherit;
+    background-color: var(--primary-color);
+    padding: 15px;
+}
+.hero h3 a:hover{
+    color: var(--nav-hover-background-color);
+    background-color: var(--accent2-color);
+}
 
 .history h2{
-    /* text-align: center; */
+    /* text-decoration: none; */
     padding: 10px;
 }
 
